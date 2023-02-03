@@ -5,6 +5,7 @@ const Counter = () => {
 
   const add = () => setcount((prev) => prev + 1);
   const subtract = () => setcount((prev) => prev - 1);
+  const multiply = () => setcount((prev) => prev*2);
 
   return (
     <div className="mt-5 px-3 py-4">
@@ -23,6 +24,13 @@ const Counter = () => {
         >
           Remove
         </button>
+        <button
+          className="btn btn-dark btn-lg mx-3 px-5 py-3 mt-2"
+          onClick={multiply}
+        >
+          Multiply
+        </button>
+
       </div>
     </div>
   );
