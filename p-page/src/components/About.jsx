@@ -1,8 +1,9 @@
 import React from "react"
+import Menu from "./Menu";
 
 function About (){
     return(
-        <h3>About</h3>
+        <h3>Hej</h3>
     );
 };
 

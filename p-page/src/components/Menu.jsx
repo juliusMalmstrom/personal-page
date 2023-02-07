@@ -1,18 +1,24 @@
 import React from "react";
 import "../custom-pico.scss";
 import { SocialIcon } from 'react-social-icons';
+import { Outlet } from "react-router-dom";
 
 function Menu(){
     return(
+      <div>
       <nav>
           <ul>    
             <li><h3 class ="text-gradient-name">Julius Malmström</h3></li>
           </ul>
           <ul>
-            <li><a href="#" class="hy-link">About me</a></li>
+            <li>
+              <a href={'/About'} class="hy-link">About me</a>
+              </li>
           </ul>
           <ul>
-            <li><a href="#" class="hy-link">Projects</a></li>
+            <li>
+              <a href={`/Projects`} class="hy-link">Projects</a>
+            </li>
           </ul>
           <ul>
             <div class= "social-item">
@@ -20,6 +26,8 @@ function Menu(){
             </div>
           </ul>
       </nav>
+      <Outlet/>
+      </div>
     );
 };
 export default Menu;
