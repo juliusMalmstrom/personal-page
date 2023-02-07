@@ -1,0 +1,37 @@
+.list-item {
+    float: left;
+  }
+
+.hy-link {
+    margin: 1em;
+    text-align: center;
+    text-decoration: none;
+    background: linear-gradient(to right, #a36bb1 0%, #650565 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+.text-gradient-name {
+    background: linear-gradient(to right, #a36bb1 0%, #650565 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;  
+    padding: 20px 20px;
+  }
+
+
+.social-item{
+    position:absolute;
+    top:15px;
+    right: 20px;
+}
+
+ .me_img {
+    border-radius: 50%;
+  }
+
+  
+$primary-500: #673ab7;
+$primary-600: #5e35b1;
+$primary-700: #512da8;
+
+@import "@picocss/pico/scss/pico";

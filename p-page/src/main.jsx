@@ -1,12 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import 'bulma/css/bulma.min.css';
 import {
   createBrowserRouter,
   RouterProvider,
-} from "react-router-dom";
-import "./index.css";
-import Menu from "./components/Menu"
+} from "react-router-dom";;
+import Menu from "./components/Menu";
+import "./index.scss";
 
 const router = createBrowserRouter([
   {
