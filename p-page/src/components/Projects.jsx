@@ -2,7 +2,10 @@ import React from "react"
 
 function Projects (){
     return(
-        <h3>Projects</h3>
+        <hgroup>
+            <h2>Heading 2</h2>
+            <h3>Subtitle for heading 2</h3>
+        </hgroup>
     );
 };
 
