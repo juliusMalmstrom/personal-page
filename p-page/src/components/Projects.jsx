@@ -1,12 +1,23 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
+import Axios from "axios"
 
 function Projects (){
-    return(
-        <hgroup>
-            <h2>Heading 2</h2>
-            <h3>Subtitle for heading 2</h3>
-        </hgroup>
-    );
-};
 
+    const [joke, setJoke] = useState("");
+
+    const getJoke = () => { Axios.get("https://official-joke-api.appspot.com/random_joke").then(
+            (response) => {
+                setJoke(response.data.setup + "..." + response.data.punchline)
+            }
+        );
+    }
+
+    return(
+        <div>
+            <button onClick={getJoke}> Get joke </button>
+            {joke}
+        </div>
+
+    );
+}
 export default Projects

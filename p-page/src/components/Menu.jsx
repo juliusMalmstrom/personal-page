@@ -1,5 +1,5 @@
 import React from "react";
-import "../custom-pico.scss";
+import "../styles/custom-pico.scss";
 import { SocialIcon } from 'react-social-icons';
 import { Outlet, Link } from "react-router-dom";
 

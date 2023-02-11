@@ -5,8 +5,8 @@ import {
   RouterProvider,
 } from "react-router-dom";;
 import Menu from "./components/Menu";
-import ErrorPage from "./error-page";
-import "./index.scss";
+import ErrorPage from "./components/error-page";
+import "./styles/index.scss";
 import About from "./components/About";
 import Projects from "./components/Projects";
 
