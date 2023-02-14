@@ -2,7 +2,7 @@ import React from "react"
 
 function About (){
     return(
-        <kbd>Hej</kbd>
+        <article></article>
     );
 };
 

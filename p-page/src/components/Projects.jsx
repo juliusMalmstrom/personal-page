@@ -7,14 +7,14 @@ function Projects (){
 
     const getJoke = () => { Axios.get("https://official-joke-api.appspot.com/random_joke").then(
             (response) => {
-                setJoke(response.data.setup + "..." + response.data.punchline)
+                setJoke(response.data.setup + " ... " + response.data.punchline)
             }
         );
     }
 
     return(
         <div>
-            <button onClick={getJoke}> Get joke </button>
+            <button class= "contrast" onClick={getJoke}> Get joke </button>
             {joke}
         </div>
 

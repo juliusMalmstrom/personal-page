@@ -1,26 +1,14 @@
-.list-item {
-    float: left;
+  .social-item {
+  position: absolute;
+  top: 15px;
+  right: 20px;
   }
-
-.social-item{
-    position: absolute;
-    top:15px;
-    right: 20px;
-}
-
- .me_img {
-    border-radius: 50%;
-  }
-
-  .nav-container{
-    margin-right: 2em;
-    margin-left: 2em;
-  }
-
-  .nav-container .content{
-    text-align: center
-  }
-
   
+  .nav-container {
+    margin: 2em;
+    .content{
+      text-align: center;
+    }
+  }
 
 @import "@picocss/pico/scss/pico";

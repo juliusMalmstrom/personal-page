@@ -7,24 +7,22 @@ function Menu(){
     return(
       <div class="nav-container">
         <nav>
-            <ul>    
-              <li><h3 class ="text-gradient-name">Julius Malmström</h3></li>
-            </ul>
-            <ul>
-              <li>
-                <Link to={'/About'}>About me</Link>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <Link to={'/Projects'}>Projects</Link>  
-              </li>
-            </ul>
-            <ul>
-              <div class= "social-item">
-              <SocialIcon url="https://www.linkedin.com/in/julius-malmstr%C3%B6m/" style={{ height: 25, width: 25 }} bgColor="#650565"/>
-              </div>
-            </ul>
+          <ul>
+            <li>
+              <strong>Julius Malmström</strong>
+            </li>
+          </ul>
+          <ul>    
+            <li class="link-to-page">
+                <a href="#"><Link class= "contrast" to={'/About'}>About me</Link></a>
+            </li>
+            <li class="links">
+              <a href="#"><Link class= "contrast" to={'/Projects'}>Projects</Link></a>
+            </li>
+            <div class= "social-item">
+                <SocialIcon url="https://www.linkedin.com/in/julius-malmstr%C3%B6m/" style={{ height: 25, width: 25 }} bgColor="#650565"/>
+            </div>
+          </ul>
         </nav>
           <div class='content'>
             <Outlet/>
