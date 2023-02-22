@@ -9,6 +9,7 @@ import ErrorPage from "./components/error-page";
 import "./styles/index.scss";
 import About from "./components/About";
 import Projects from "./components/Projects";
+import Searchbar from "./components/Searchbar";
 
 
 const router = createBrowserRouter([
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: "/Projects",
         element: <Projects />
+      },
+      {
+        path: "/Searchbar",
+        element: <Searchbar />
       }
     ],
   },

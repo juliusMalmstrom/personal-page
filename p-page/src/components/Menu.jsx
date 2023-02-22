@@ -13,15 +13,22 @@ function Menu(){
             </li>
           </ul>
           <ul>    
-            <li class="link-to-page">
-                <a href="#"><Link class= "contrast" to={'/About'}>About me</Link></a>
+            <li>
+              <a href="#"><Link class= "contrast" to={'/About'}>About me</Link></a>
             </li>
-            <li class="links">
+
+            <li>
               <a href="#"><Link class= "contrast" to={'/Projects'}>Projects</Link></a>
             </li>
+
+            <li>
+              <a href="#"><Link class= "contrast" to={'/Searchbar'}>Searchbar</Link></a>
+            </li>
+
             <div class= "social-item">
                 <SocialIcon url="https://www.linkedin.com/in/julius-malmstr%C3%B6m/" style={{ height: 25, width: 25 }} bgColor="#650565"/>
             </div>
+            
           </ul>
         </nav>
           <div class='content'>
