@@ -3,7 +3,7 @@ import React from "react";
 function About (){
     return(
         <article>
-            Some stuff abt me.
+            <h1 class="company-name">Axis Communication</h1>
         </article>
     );
 };

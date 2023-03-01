@@ -18,7 +18,7 @@ function Menu(){
             </li>
 
             <li>
-              <a href="#"><Link class= "contrast" to={'/Projects'}>Projects</Link></a>
+              <a href="#"><Link class= "contrast" to={'/Projects'}>Experience</Link></a>
             </li>
 
             <li>
@@ -28,7 +28,7 @@ function Menu(){
             <div class= "social-item">
                 <SocialIcon url="https://www.linkedin.com/in/julius-malmstr%C3%B6m/" style={{ height: 25, width: 25 }} bgColor="#650565"/>
             </div>
-            
+
           </ul>
         </nav>
           <div class='content'>
